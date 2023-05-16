@@ -2,7 +2,6 @@
 
 public class MsLearnLocaleDto
 {
-    public int Id { get; set; }
-    public bool IsActive { get; set; }
-    public string LocaleCode { get; set; }
+    public bool IsActive { get; init; }
+    public string LocaleCode { get; init; }
 }
